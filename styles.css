@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; background:#f7f7f7; }
+.container { max-width:900px; margin:30px auto; background:white; padding:20px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,.1);}
+#board { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+.cell { width:44px; height:44px; display:flex; align-items:center; justify-content:center; border:1px solid #ddd; border-radius:4px; cursor:pointer; user-select:none; background:#fff;}
+.cell.selected { background:#4CAF50; color:white; }
+.controls label { margin-right:10px; }

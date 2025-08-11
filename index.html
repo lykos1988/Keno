@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Keno-like Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Keno-like — Demo</h1>
+    <div id="balance">Balance: --</div>
+    <div class="controls">
+      <label>User ID: <input id="userId" value="player1"></label>
+      <label>Bet: <input id="bet" type="number" value="10" min="1"></label>
+      <button id="newDraw">Start New Draw (commit)</button>
+      <div id="commitHash"></div>
+    </div>
+    <div id="board"></div>
+    <div class="actions">
+      <button id="playBtn">Play (submit picks)</button>
+    </div>
+    <div id="result"></div>
+    <h3>History</h3>
+    <div id="history"></div>
+  </div>
+  <script src="client.js"></script>
+</body>
+</html>
